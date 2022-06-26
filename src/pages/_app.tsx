@@ -1,6 +1,5 @@
 import type { AppPropsWithLayout } from '@/core/types';
 import { ThemeProvider } from 'next-themes';
-import '../styles/globals.css';
 import './globals.css';
 
 function MyApp({ Component, pageProps }: AppPropsWithLayout) {
